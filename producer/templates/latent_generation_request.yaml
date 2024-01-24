@@ -1,0 +1,23 @@
+# This is a template for latent generation request message for kafka producer.
+# The template includes the following fields:
+#   - topic: the topic name of the message, e.g. "latent_generation_request"
+#   - data: the key of the message, e.g. "key"
+#     - key: the key of the message, e.g. "image"
+#     - type: the type of the key, e.g. "string", "file", "int", "float", "image"
+#                                  "string": the value is a string
+#                                  "file": the value is a file path, and the file will be read with base64 encoding
+#                                  "int": the value is an integer
+#                                  "float": the value is a float
+#                                  "image": the value is an image file path, and the image will be read with base64 encoding in the format of "data:image/png;base64,<base64 encoded image>"
+#     - value: the value of the message, for file type, it is the file path
+topic: latent_generation_request
+data:
+  video_uuid:
+    type: string
+    value: "video uuid"
+  frame_number:
+    type: int
+    value: 0
+  instance_id:
+    type: int
+    value: 0

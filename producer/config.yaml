@@ -1,0 +1,8 @@
+# the configuraion file for the producer
+# the producer will read the config file and send the message to the kafka broker
+# the config file is in yaml format
+# the config file contains the following fields:
+#   - bootstrap_servers: the kafka bootstrap servers address, a list of strings in the format of "host:port", e.g. ["localhost:9092"]
+#   - encoding: the encoding of the message, e.g. "utf-8"
+bootstrap_servers: ["localhost:32094"]
+encoding: "utf-8"
