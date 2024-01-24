@@ -10,7 +10,7 @@
 #                                  "float": the value is a float
 #                                  "image": the value is an image file path, and the image will be read with base64 encoding in the format of "data:image/png;base64,<base64 encoded image>"
 #     - value: the value of the message, for file type, it is the file path
-topic: latent_generation_request
+topic: segmentation_request
 data:
   video_uuid:
     type: string
