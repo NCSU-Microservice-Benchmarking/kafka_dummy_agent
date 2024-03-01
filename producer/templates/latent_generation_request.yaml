@@ -14,7 +14,7 @@ topic: latent_generation_request
 data:
   video_uuid:
     type: string
-    value: "video uuid"
+    value: "fe63db2b-a76e-47aa-a1cb-e613b0b987e8"
   frame_number:
     type: int
     value: 0
