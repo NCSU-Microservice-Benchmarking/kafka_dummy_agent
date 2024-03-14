@@ -21,7 +21,7 @@ The producer contains the following components:
 ### Usage
 To run the producer, enter the producer folder and use the following command:
 ```bash
-python producer.py --tmp <name of the template file>
+python produce.py --tmp <name of the template file>
 ```
 
 ## Consumer:
